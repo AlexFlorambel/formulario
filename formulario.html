@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    
+    <form style="background-size: 50%; background-color: bisque; width: 35%; border:groove"><br>
+        <label for="name">Nome:</label> 
+        <input type="text" id="name" name="name" style="float:right; display:block; width: 85%;"><br><br>
+        <label for="data">Data de Nascimento:</label>
+        <input type="date" id="data"><br>
+        <p>Sexo:
+            <form action="/formulario.html">
+                <input type="radio" id="feminino" name="sexo" value="Feminino">
+                <label for="Feminino"> Feminino </label>
+                <input type="radio" id="masculino" name="sexo" value="Masculino">
+                <label for="Masculino">Masculino</label>  
+                <input type="radio" id="prefiro_nao_informar" name="sexo" value="prefiro_nao_informar">
+                <label for="prefiro_nao_informar">Prefiro não informar</label>
+            
+        </p>
+        <label for="endereço"> Endereço: </label>
+        <input type="text" id="endereço" style="float:right; display:block; width: 85%;"><br><br>
+        <label for="bairro">Bairro:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="text" id="bairro"><br>
+        <label for="cidade">Cidade:&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="text" id="bairro"><br>
+        <label for="uf">UF:</label>
+        <select id="uf" name="uf">
+            <option value="DF">DF</option>
+            <option value="GO">GO</option>
+            <option value="MA">MA</option>
+            <option value="MT">MT</option>   
+        </select><br>
+        <label for="email">Email:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="email" id="email" name="email"><br><br>
+        <input type="reset" name="b2" value="Limpar"> <input type="submit" value="Enviar">
+        <p style="font-size:larger; line-height: 200%; background-color: rgb(225, 181, 126); text-decoration-line: underline; text-align: center;">
+            Acesse o <a href="index.html"> Inicio</a></p>
+    </form>
+    
+</body>
+</html>

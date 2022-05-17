@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="DocumentUTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body style="background-color: darkgrey;"><br>
+    <table border="1" style="margin: auto; width: 80%; text-align: center;">
+        <tr style="background-color: blueviolet;"><td><h2>Componentes do grupo </tr></td><h2>
+        <tr><td>Alexandra Torres de Florambel</tr></td>
+        <tr><td>Ana Clara Brandão</tr></td>
+        <tr><td>Hytallo Araujo</tr></td>
+        <tr><td>Luciana Souza</td></tr>
+   
+    </table>
+    <h2>Perguntas:</h2>
+    
+    <ol type="a">
+        
+        <li>Na tag< input> com atributo type="text", para que serve o atributo "placeholder"?
+            <p style="font-style: oblique;">O atributo "placeholder", indica um modelo como deve ser preenchido o campo de entrada  (ex: uma breve amostra do formato esperado)<br>
+                Sintaxe < input placeholder = "text">. Funciona com seguintes tipos de entrada: texto, pesquisa, url, telefone, email e senha.</p></li>
+        <li>Na tag< input> com atributo type="radio" ou type="radio", para que serve o atributo "checked"?
+            <p style="font-style: oblique;">Os elementos do checked são renderizados como caixas quadradas por padrão e são marcados (com uma marca de seleção) quando ativados, assim como você vê nos formulários de governo.<br>
+                A aparência exata depende da configuração do sistema operacional em que o navegador está sendo executado. As caixas de seleção permitem que você selecione valores únicos para enviar no formulário.<br>
+                Sintaxe < input checked></p></li>
+        <li>Na tag< input> para que serve o atributo "value"?
+            <p style="font-style: oblique;">"Value" especifica o valor do elemento < input>. E será usado de diferentes formas para diferentes tipos de entradas:
+                <ul style="list-style: circle;"> 
+                    <li>Para "button", "reset" e "submit" - define texto no botão.</li>
+                    <li>Para "text", "password" e "hidden" - é definido um valor incial (padrão) no campo de entrada. </li>
+                    <li>Para "checkbox", "radio", "image" - define o valor associado à entrada.</li>
+                </ul>
+                <p style="font-style: oblique;">O atributo "VALUE" não pode ser usado com < input type=""file"><br>
+                Sintaxe: < input value=""text"></p>
+            </p>
+        </li>
+        <li>Que atributo deve ser utilizado para agrupar vários botões de rádio em um formulário de modo que apenas um deles fique marcado de cada vez?<br>
+            <p style="font-style: oblique;">É utilizado o atributo < input type="radio" > que já define somente uma possibilidade de marcação. </p></li>
+        <li>Para que serve a tag< label>? Para que serve o atributo "for" nessa tag?
+            <p style="font-style: oblique;">A tag < label > define um rótulo para vários elementos, ou seja, dá o nome dos campos a serem preenchidos no formulário. O "for" especifica a qual elemento de formulário um rótulo está vinculado.</p></li>
+        <li>Na tag< option> para que serve o atributo "selected"?
+            <p style="font-style: oblique;">Serve para uma pré-marcação, para que ao carregar o formulário já esteja selecionado uma opção. No geral é usada na opção  "Selecione" ou "Escolha" e com atributo de valor vazio, no caso de não marcação de opção do usuário.</p></li>
+        <li >Nas tags de formulário para que serve o atributo "required"?
+            <p style="font-style: oblique;">O atributo "Required" é usado para especificar um campo de entrada que deve ser preenchido antes de enviar o formulário.<br>
+                    Funciona para: texto, pesquisa,url,email,senha, data. Escrito na seguinte sintaxe:< input required></p></li>
+        
+        <li>Na tag< form> para que serve o atributo "action"?
+            <p style="font-style: oblique;">O atributo "action" especifica para onde enviar os dados do formulário, seu valor deve ser um URL válido, senão serão enviados para um URL da página que contém o formulário.<br>
+               Sintaxe < form action="url"> pode ser absolute (quando coloca o endereço de um site externo) ou relative (interno)</p></li>
+        <li>Na tag< form> para que serve o atributo "method"?<br>
+            <p style="font-style: oblique;">É um atributo que define como os dados são enviados (os daos de formulário são enviados para a página especificada no "action").<br>
+                podem ser enviados como variáveis de URL (method="get") ou como transação de postagem HTTP (method="post").
+                <p>Observações sobre GET</p>
+                <ul style="list-style-type: circle;">
+                <li>Anexa dados do formulário ao URL em pares de nomes/valores </li>
+                <li>Tem comprimento limitado (3.000 caracteres)</li>
+                <li>Nunca use para colocar dados confidenciais</li>
+                <li>Útil para envios de formulários em que o usuário deseja marcar o resultado</li>
+                <li>Melhor usar para dados não seguros.</li></ul>
+                <p>Observações sobre POST</p>
+                <ul style="list-style-type: circle;">
+                <li>Anexa dados do fromulário dentro do corpo da solicitação HTTP,</li>
+                <li>Não tem limitação de tamanho,</li>
+                <li>Os envios de formulários com Post não podem ser marcados.</li></ul>
+            
+
+            </p>
+        </li>
+        <li>Para que o valor digitado de uma senha não apareça na barra de endereços do navegador, qual deve ser o valor do atributo "method" na tag< form>?
+            <p style="font-style: oblique;">Para tirar proveito do “sigilo”, este tipo de campo deve ser enviado pelo método POST.<br>
+                Por exemplo, se o usuário digitar “pcpw02” e enviar o formulário, a informação recebida pelo programa será “senha=pcpw02”: Senha: </p></li>
+        <li>Qual valor deve ser informado no atributo "method" na tag< form> em um formulário que será usado para fazer upload de arquivos?
+            <p style="font-style: oblique;"> Será necessário utilizar o atributo “enctype =” multipart / form-data ” dentro da tag do formulário.</p></li>
+    </ol>
+    <p style="font-size:larger; line-height: 200%; background-color: rgb(225, 181, 126); text-decoration-line: underline; text-align: center;">
+         Acesse o <a href="formulario.html"> Formulário</a></p>
+        </style>
+    
+</body>
+</html>
