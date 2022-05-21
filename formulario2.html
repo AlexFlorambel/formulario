@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form> <H1>FORMULÁRIO</H1>
+        <fieldset style="width:33%;" >
+            <legend >Dados Pessoais</legend>
+                <div >
+                    <label for="name">Nome:</label> 
+                    <input type="text" id="name" name="name" style="float:right; display:block; width: 90%;"><br><br>
+                    <label for="data">Data de Nascimento:</label>
+                    <input type="date" id="data"><br><br>
+                    <label for="email">Email:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                    <input type="email" id="email" name="email"><br><br>
+                    <label for="number">Telefone:</label>
+                    <input type="tel" id="number">
+                </div></fieldset>
+        <fieldset style="width:33%;">
+            <legend >Dados Acadêmico</legend>
+            <div>
+                <label for="curso">Curso</label>
+                <select id="curso"name="curso">
+                    <option value="ADS">ADS</option>
+                    <option value="GTI">GTI</option>
+                    <option value="TCD">TCD</option>
+                    <option value="SDI">SDI</option>   
+                 </select><br>
+                 <p>Semestre:
+                    <form action="/formulario.html">
+                        <input type="radio" id="1" name="Semestre" value="1º" checked>
+                        <label for="1º"> 1º </label>
+                        <input type="radio" id="2" name="Semestre" value="2º">
+                        <label for="2º">2º</label>  
+                        <input type="radio" id="3" name="Semestre" value="3º">
+                        <label for="3º">3º</label>
+                        <input type="radio" id="4" name="Semestre" value="4º">
+                        <label for="4"> 4º </label>
+                        <input type="radio" id="5" name="Semestre" value="5º">
+                        <label for="5º"> 5º </label>    
+                </p>
+            </div>
+        </fieldset>
+        <fieldset style="width:33%">
+            <div>
+                <label for="trabalha" > Trabalha </label>
+                <input type="checkbox"><br>
+                <label>Local de trabalho:</label>
+                <input type="text"><br>
+                <label for="experiencia"> Descreva sua experiência:</label><br>
+                <textarea id="experiencia" name="experiencia" rows="4" cols="40"></textarea>
+            </div>
+            
+        </fieldset>
+        <input type="submit" value="Gravar"><input type="reset" name="b2" value="Limpar">
+    </form>
+    
+    
+</body>
+</html>
